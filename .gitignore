@@ -1,0 +1,39 @@
+# macOS metadata
+**/.DS_Store
+
+# Local diagnostic screenshots
+/docs/err-*.png
+
+# Unreal Engine generated directories
+**/Binaries/
+**/DerivedDataCache/
+**/Intermediate/
+**/Saved/
+
+# Unreal local caches and generated files
+**/Content/Developers/
+**/*.VC.db
+**/*.opensdf
+**/*.sdf
+**/*.sln
+**/*.suo
+
+# IDE and editor state
+.idea/
+.vscode/
+.vs/
+**/*.xcworkspace/
+**/*.xcodeproj/
+**/xcuserdata/
+*.code-workspace
+
+# Build/package output created outside Unreal's Saved directory
+/Dist/
+/Packages/
+/Releases/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+*~
